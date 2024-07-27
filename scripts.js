@@ -1,0 +1,118 @@
+document.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+    if (window.scrollY > Let's adjust the design to include images with transitions that display for 3 seconds, a prominent hero section, and a more comprehensive layout similar to the reference website. I'll ensure all images are sourced correctly, and additional detailed content for services is included.
+
+### `index.html`
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hybrid Interiors Limited</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Hybrid Interiors Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="hero-slider">
+            <div class="slide" style="background-image: url('images/hero1.jpg');"></div>
+            <div class="slide" style="background-image: url('images/hero2.jpg');"></div>
+            <div class="slide" style="background-image: url('images/hero3.jpg');"></div>
+        </div>
+        <h2>Transforming Spaces with Style</h2>
+    </div>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Hybrid Interiors Limited is a premier interior design company based in Kenya. We specialize in creating innovative and modern interior designs that transform spaces and bring our clients' visions to life. Our team of experienced designers is dedicated to delivering exceptional results for both residential and commercial projects.</p>
+        </section>
+        <section id="services" class="section">
+            <h2>Services</h2>
+            <div class="service">
+                <h3>Residential Interior Design</h3>
+                <p>We create stylish and functional living spaces tailored to your needs and preferences. Our designs range from modern minimalism to classic elegance.</p>
+            </div>
+            <div class="service">
+                <h3>Commercial Interior Design</h3>
+                <p>Our commercial designs enhance productivity and brand image, creating spaces that are both functional and aesthetically pleasing.</p>
+            </div>
+            <div class="service">
+                <h3>Space Planning</h3>
+                <p>We optimize the layout of your space to ensure maximum efficiency and comfort, considering both functionality and aesthetics.</p>
+            </div>
+            <div class="service">
+                <h3>Project Management</h3>
+                <p>We oversee your interior design project from concept to completion, ensuring everything runs smoothly and on schedule.</p>
+            </div>
+            <div class="service">
+                <h3>Custom Furniture Design</h3>
+                <p>Our custom furniture solutions are designed to perfectly fit your space and style, providing both beauty and functionality.</p>
+            </div>
+            <div class="service">
+                <h3>Flooring</h3>
+                <p>We offer a variety of flooring options including hardwood, tile, and laminate, ensuring durability and aesthetic appeal.</p>
+            </div>
+            <div class="service">
+                <h3>Tiling</h3>
+                <p>Our tiling services cover everything from bathroom walls to kitchen backsplashes, using high-quality materials for a perfect finish.</p>
+            </div>
+            <div class="service">
+                <h3>Painting</h3>
+                <p>We provide professional painting services that bring your spaces to life with a fresh coat of color, tailored to your design vision.</p>
+            </div>
+            <div class="service">
+                <h3>Ceiling</h3>
+                <p>Our ceiling solutions include modern and traditional designs, using materials that enhance both the look and functionality of your space.</p>
+            </div>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <img src="images/living-room.jpg" alt="Modern Living Room">
+                <div>
+                    <h3>Modern Living Room</h3>
+                    <p>This modern living room design features a sleek and minimalistic approach with vibrant accent colors to create a cozy yet elegant atmosphere.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/office-space.jpg" alt="Office Space">
+                <div>
+                    <h3>Office Space</h3>
+                    <p>A contemporary office space that promotes productivity and creativity. The design incorporates ergonomic furniture and an open layout.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/bedroom.jpg" alt="Luxury Bedroom">
+                <div>
+                    <h3>Luxury Bedroom</h3>
+                    <p>This luxury bedroom design exudes comfort and sophistication with high-end finishes and a harmonious color palette.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Phone: 0745786665</p>
+                <p>Email: hybridinteriors254@gmail.com</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Hybrid Interiors Limited. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
